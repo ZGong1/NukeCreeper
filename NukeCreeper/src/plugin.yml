@@ -11,8 +11,8 @@ commands:
         description: reloads the config file
         permission: NukeCreeper.reload
         permission-message: You cannot reload this config file
-        usage: The correct usage is /CreeperNuke reload
+        usage: The correct usage is /CreeperNuke [reload|give]
         
 permissions:
     NukeCreeper.reload:
-        description: Allows you to reload the config file
+        description: Allows you to reload the config file and get custom eggs
