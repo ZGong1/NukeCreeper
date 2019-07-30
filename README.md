@@ -14,3 +14,6 @@
 <p> adds the NukeCreeper.* permission node </p>
 <p> removes an error handling bug </p>
 <p> fixes usage: in the plugin.yml file </p>
+
+<h4>To-Do List</h4>
+<p> add tab auto completion to subcommands </p>
