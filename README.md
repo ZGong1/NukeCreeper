@@ -8,12 +8,13 @@
 <p>/creepernuke give | gives a custom nuke creeper egg to the user of the command</h3>
 
 
-<h4>Update 1.1</h4>
+<h4>Update 2.1.2</h4>
 <p> adds more options in the config.yml file </p>
 <p> changes how the custom creepers behave </p>
 <p> adds the NukeCreeper.* permission node </p>
 <p> removes an error handling bug </p>
 <p> fixes usage: in the plugin.yml file </p>
+<p> fixes error when booting using paper </p>
 
 <h4>To-Do List</h4>
 <p> add tab auto completion to subcommands </p>
