@@ -4,15 +4,19 @@ author: ZGong
 
 main: com.javaminecraft.NukeCreeper
 
-version: 1.0
+version: 2.1.2
+
+api-version: 1.13
 
 commands:
     CreeperNuke:
         description: reloads the config file
-        permission: NukeCreeper.reload
-        permission-message: You cannot reload this config file
-        usage: The correct usage is /CreeperNuke [reload|give]
+        permission: NukeCreeper.*
+        permission-message: You do not have access to the nuke creeper plugin.
+        usage: |
+           /<command> reload - reloads the config file
+           /<command> give - gives the custom creeper egg
         
 permissions:
-    NukeCreeper.reload:
-        description: Allows you to reload the config file and get custom eggs
+    NukeCreeper.*:
+        description: Wildcard permission

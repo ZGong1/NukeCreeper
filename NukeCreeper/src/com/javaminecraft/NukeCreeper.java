@@ -11,9 +11,6 @@ import org.bukkit.inventory.*;
 import org.bukkit.potion.*;
 import org.bukkit.inventory.meta.*;
 
-//put custom creeper name in the config file
-//pug amount of ticks lived in config file
-
 
 public class NukeCreeper extends JavaPlugin implements Listener {
     
